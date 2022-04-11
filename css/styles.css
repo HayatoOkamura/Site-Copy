@@ -1,0 +1,314 @@
+.wrap {
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	transition: all .5s;
+	opacity: .5;
+}
+
+
+.header-wrapper {
+	width: 100vw;
+	height: 80vh;
+	background-image: url("../images/main.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	overflow-wrap: break-word;
+}
+
+.header {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.header-list {
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+	padding: 20px;
+}
+
+.header-wrapper img {
+	width: 140px;
+	
+}
+
+.header-wrapper ul {
+	display: flex;
+	padding: 30px 40px;
+	font-family: "ヒラギノ明朝 ProN";
+	font-size: 18px;
+	vertical-align: baseline;
+}
+.header-wrapper li {
+	margin-left: 60px;
+}
+
+.header-wrapper h1 {
+	text-align: center;
+	font-size: 48px;
+	font-family: "ヒラギノ明朝 ProN";
+	line-height: 56vh;
+}
+
+
+.news-wrapper {
+	font-family: "ヒラギノ明朝 ProN";
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 85px;
+}
+
+.news-wrapper h2 {
+	font-size: 37px;
+	text-align: center;
+	margin-bottom: 65px;
+}
+
+.news-box {
+	padding: 32px 32px 32px 0;
+	border-bottom: solid 1px rgba(0, 0, 0, .8);
+}
+
+.news-box a {
+	display: flex;
+}
+
+.news-box h3 {
+	font-size: 18px;
+	margin-right: 35px;
+}
+
+.news-box .news-btn {
+	font-size: 11px;
+	border: solid 1px rgba(0, 0, 0, .8);
+	padding: 6px 8px;
+	margin-right: 35px;
+}
+
+.news-box .newscontain {
+	font-size: 18px;
+}
+
+.construction-wrapper {
+	font-family: "ヒラギノ明朝 ProN";
+	text-align: center;
+	margin-top: 150px;
+	max-width: 1050px;
+	margin: 0 auto;
+	margin-top: 150px;
+}
+
+.construction-wrapper h2 {
+	font-size: 35px;
+	margin-bottom: 80px;
+}
+
+.construction-box {
+
+	
+	display: flex;
+	margin-bottom: 80px;
+	justify-content: space-between;
+}
+
+
+
+.construction-wrapper img {
+	width: 450px;
+}
+
+.construction-contain h3 {
+	font-size: 25px;
+	margin: 30px 0 5px 0;
+}
+
+.construction-contain a {
+	display: block;
+}
+
+.construction-contain p:nth-last-child(1){
+	margin: 0 auto;
+	width: 300px;
+	padding: 15px;
+	border-bottom: solid 1px rgba(0, 0, 0, .8);
+}
+
+.construction-contain p:nth-last-child(2){ 
+	font-size: 14px;
+	margin: 0 auto;
+	width: 300px;
+	padding: 15px;
+	border-bottom: solid 1px rgba(0, 0, 0, .8);
+}
+
+.construction-list {
+	width: 170px;
+	font-size: 20px;
+	border: solid 1px rgba(0, 0, 0, .8);
+	padding: 15px 20px;
+	margin: 0 auto;
+}
+
+.construction-list a {
+	display: block;
+}
+
+.other-wrapper {
+	display: flex;
+	margin-top: 170px;
+}
+
+.other-wrapper img {
+	width: 100%;
+	vertical-align: top;
+}
+
+.footer-menu {
+	background-color: #000;
+	color: #fff;
+	font-family: "ヒラギノ明朝 ProN";
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.footer-menu img {
+	width: 100px;
+	margin: 30px 100px;
+}
+
+.footer-menu ul {
+	display: flex;
+	font-size: 18px;
+}
+
+.footer-menu li {
+	margin: 40px 60px 0 0;
+	
+}
+
+.footer-menu ul a {
+	color: #fff;
+}
+
+.footer-bottom {
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	
+}
+
+.footer-bottom p {
+	padding: 25px 0 10px 0;
+	font-family: "ヒラギノ明朝 ProN";
+	font-size: 12px;
+}
+
+@media screen and (max-width: 970px) {
+	.header-wrapper {
+		height: 50vh;
+	}
+
+	.header-wrapper img {
+		width: 90px;
+	}
+
+	.header-wrapper h1 {
+		text-align: center;
+		font-size: 24px;
+		font-family: "ヒラギノ明朝 ProN";
+		line-height: 30vh;
+	}
+
+	.header-wrapper ul {
+		display: none;
+	}
+
+	.news-wrapper {
+		margin-top: 50px;
+	}
+
+	.news-wrapper h2 {
+		font-size: 24px;
+		
+	}
+
+	.news-box a {
+		flex-wrap: wrap;
+	
+	}
+
+	.news-box h3 {
+		font-size: 14px;
+		margin-top: 6px;
+	}
+
+	.newscontain {
+		margin-top: 15px;
+		width: 100%;
+	}
+
+	.construction-wrapper {
+		margin-top: 100px;
+		padding: 50px 20px;
+	}
+
+	.construction-box {
+		flex-direction: column;
+		margin-bottom: 0;
+		
+		
+	}
+
+	.construction-wrapper h2 {
+		font-size: 25px;
+	}
+
+	.construction-contain {
+	
+		margin-bottom: 50px;
+	}
+
+	.construction-contain img {
+		width: 100%;
+		max-width: 700px;
+	}
+
+	.other-wrapper {
+		flex-direction: column;
+	}
+
+	
+
+	.footer-menu {
+		flex-direction: column-reverse;
+		text-align: center;
+	}
+
+	.footer-menu ul {
+		flex-direction: column;
+		
+	}
+
+	.footer-menu img {
+		padding-top: 20px;
+		margin-bottom: 0;
+	}
+
+	.footer-menu li {
+		margin: 35px 0 0 0;
+	}
+
+	.footer-bottom {
+		padding-top: 0;
+	}
+}
